@@ -7,7 +7,7 @@ header {
     border-radius: 10px;
     flex-direction: column;
     color: whitesmoke;
-    background-image: url("../../images/background.jpeg");
+    background-image: url("../../Images/background.jpeg");
   }
 
 .portfolio {
@@ -29,6 +29,14 @@ header {
 
 h4{
     font-size: medium;
+}
+
+#self-div{
+  width:"300";
+  height:"300";
+  float:left;
+  margin: 0 10px 0;
+
 }
   
   @media (min-width: 800px) {

@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./style.css";
-// import BioImage from "./images";
+import BioImg from "../../Images/Self.jpeg";
 
 function AboutMe () {
     return (
@@ -18,16 +18,25 @@ function AboutMe () {
                 <Link id="aboutme-nav" className={`nav-link dawn-color dawn-underline`} to="/#/">About Me</Link>
               </li>
               <li className={`nav-item`}>
-                <Link id="portfolio-nav" className={`nav-link dawn-color`} to="/#/projects">Portfolio</Link>
+                <Link className={`nav-link dawn-color`} to="/#/projects">Portfolio</Link>
               </li>
               <li className={`nav-item`}>
-                <Link id="contact-nav" className={`nav-link dawn-color`} to="/#/contact">Contact Me</Link>
+                <Link className={`nav-link dawn-color`} to="/#/contact">Contact Me</Link>
               </li>
             </ul>
           </div>  
         </nav>
         <div className="portfolio">
             <h1>Bio</h1>
+            <div className="sidebar">
+            <div id="self-div">
+              <img
+                id="Self-img"
+                alt=""
+                src={BioImg}
+              />
+            </div>
+            </div>
             <p>
             Hi, my name is Norbu Sherpa.I'm currently working as a Salesforce Engineer at Athena Home Loan. I migrated to Sydney 12 years ago to complete my Master in Accounting Studies. My fasication of technology motivated me to change my career path. A few years
                 ago I was working as an operations supervisor for a litigation support firm. I resigned from that position and started preparing for Salesforce certification, I was successful in acquiring the Salesforce Administrator Certification. Three
