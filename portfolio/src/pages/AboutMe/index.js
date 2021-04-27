@@ -15,13 +15,16 @@ function AboutMe () {
           <div className="collapse navbar-collapse" id="navbarSupportedContent"> 
             <ul id="index-link" className="navbar-nav ml-auto">
               <li className={`nav-item`}>
-                <Link id="aboutme-nav" className={`nav-link dawn-color dawn-underline`} to="/#/">About Me</Link>
+                <Link id="aboutme-nav" className={`nav-link dawn-color dawn-underline`} to="/">About Me</Link>
               </li>
               <li className={`nav-item`}>
-                <Link className={`nav-link dawn-color`} to="/#/projects">Portfolio</Link>
+                <Link className={`nav-link dawn-color`} to="/portfolio">Portfolio</Link>
               </li>
               <li className={`nav-item`}>
-                <Link className={`nav-link dawn-color`} to="/#/contact">Contact Me</Link>
+                <Link className={`nav-link dawn-color`} to="/projects">Projects</Link>
+              </li>
+              <li className={`nav-item`}>
+                <Link className={`nav-link dawn-color`} to="/contact">Contact Me</Link>
               </li>
             </ul>
           </div>  

@@ -1,9 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./style.css";
-import OkatuImg from "../../Images/Otaku.png";
-import NoteImg from "../../Images/NoteTaker.png";
-import WeatherImg from "../../Images/WeatherApp.png";
 
 
 function Portfolio () {
@@ -22,6 +19,9 @@ function Portfolio () {
               </li>
               <li className={`nav-item`}>
                 <Link className={`nav-link dawn-color`} to="/#/projects">Portfolio</Link>
+              </li>
+              <li className={`nav-item`}>
+                <Link className={`nav-link dawn-color`} to="/#/projects">Projects</Link>
               </li>
               <li className={`nav-item`}>
                 <Link className={`nav-link dawn-color`} to="/#/contact">Contact Me</Link>
@@ -62,55 +62,11 @@ function Portfolio () {
                 <h3>System Administrator Skills</h3>
                 <ul>
                     <strong>Okta Administrator</strong>
-                    <strong>Jira and Confluence System Administrator</strong>                        <strong>Office 365 System Administrator</strong>
+                    <strong>Jira and Confluence System Administrator</strong>                       
+                    <strong>Office 365 System Administrator</strong>
                     <strong>Slack System Administrator</strong>
                     <strong>Zoom System Administrator</strong>
                 </ul>
-            </div>
-            <div class="project">
-                <h1> Projects</h1>
-                <div class="otaku">
-                    <h2>Otaku</h2>
-                        <li> <a href="https://github.com/norbu-s/Project-Otaku">Repo </a></li>
-                        <li><a href="https://norbu-s.github.io/Project-Otaku/"> Otaku App</a></li>
-                        <div className="sidebar">
-                        <div id="otaku-div">
-                        <img
-                        id="Otaku-img"
-                        alt=""
-                        src={OkatuImg}
-                        />  
-                        </div>
-                        </div>            
-                </div>
-                <div class="note">
-                    <h2>Note-Taker</h2>
-                        <li><a href="https://github.com/norbu-s/Project-Otaku">Repo </a></li>
-                        <li><a href="https://norbu-s.github.io/Project-Otaku/"> Otaku App</a> </li>
-                        <div className="sidebar">
-                        <div id="note-div">
-                        <img
-                            id="Note-img"
-                            alt=""
-                            src={NoteImg}
-                        />  
-                        </div>  
-                        </div> 
-                </div>
-                <div class="weather">
-                    <h2>Weather App</h2>
-                        <li> <a href="https://norbu-s.github.io/Weather-App2">Repo </a></li>
-                        <li><a href="https://norbu-s.github.io/Weather-App2"> Weather App</a></li>
-                        <div className="sidebar">
-                        <div id="weather-div">
-                        <img
-                            id="Weather-img"
-                            alt=""
-                            src={WeatherImg}
-                        />  
-                        </div>  
-                        </div> 
-                </div>
             </div>
          </div>
         </div>
