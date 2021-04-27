@@ -1,27 +1,27 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./style.css";
-import BioImage from "./images/Self.jpeg";
+// import BioImage from "./images";
 
 function AboutMe () {
     return (
+      <header>
         <div>
-            <header>
             <nav id="index-navbar" className={`navbar navbar-expand-lg navbar-light col-12 dawn-background-2`}>
           <button id="index-nav-toggler" className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
                       
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <div className="collapse navbar-collapse" id="navbarSupportedContent"> 
             <ul id="index-link" className="navbar-nav ml-auto">
               <li className={`nav-item`}>
                 <Link id="aboutme-nav" className={`nav-link dawn-color dawn-underline`} to="/#/">About Me</Link>
               </li>
               <li className={`nav-item`}>
-                <Link className={`nav-link dawn-color`} to="/#/projects">Portfolio</Link>
+                <Link id="portfolio-nav" className={`nav-link dawn-color`} to="/#/projects">Portfolio</Link>
               </li>
               <li className={`nav-item`}>
-                <Link className={`nav-link dawn-color`} to="/#/contact">Contact Me</Link>
+                <Link id="contact-nav" className={`nav-link dawn-color`} to="/#/contact">Contact Me</Link>
               </li>
             </ul>
           </div>  
@@ -38,23 +38,22 @@ function AboutMe () {
             <h2><strong>Interest</strong></h2>
             <ul>
                 <li>
-                    <h3><strong>Travelling</strong></h3>
+                    <h4>Travelling</h4>
                 </li>
                 <li>
-                    <h3><strong>Technology</strong></h3>
+                    <h4>Technology</h4>
                 </li>
                 <li>
-                    <h3><strong>Motor Racing</strong></h3>
+                    <h4>Motor Racing</h4>
                 </li>
                 <li>
-                    <h3> <strong>Soccer</strong></h3>
+                    <h4>Soccer</h4>
                 </li>
                 </ul>
             </div>
         </div>
-     </div>
-     <header/>
-</div>
+     </div> 
+  </header> 
     )
 }
 
