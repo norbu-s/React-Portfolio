@@ -1,7 +1,6 @@
 import React from "react";
 import { HashRouter as Router, Switch, Route} from "react-router-dom";
 import About from "./pages/AboutMe";
-import Portfolio from "./pages/Portfolio";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 
@@ -18,9 +17,6 @@ function App() {
           <Route exact path="/aboutme">
             <About />
           </Route>
-          <Route exact path="/portfolio">
-            <Portfolio />
-            </Route>
             <Route exact path="/projects">
             <Projects />
           </Route>

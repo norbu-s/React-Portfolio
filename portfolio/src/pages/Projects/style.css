@@ -1,0 +1,76 @@
+.otaku{
+    padding: 20px;
+    margin: 50px;
+}
+
+.note{
+    padding: 20px;
+    margin: 50px;
+}
+
+.weather{
+    padding: 20px;
+    margin: 50px;
+}
+
+.budget-tracker{
+    padding: 20px;
+    margin: 50px;
+}
+
+.Entertain-Me{
+    padding: 20px;
+    margin: 50px;
+}
+
+.Employee-Directory{
+    padding: 20px;
+    margin: 50px;
+}
+
+p{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#Otaku-img
+{
+    height:  600px;
+    width:  600px;
+}
+
+#Note-img{
+    height:  600px;
+    width:  600px;
+}
+
+#Weather-img{
+    height:  600px;
+    width:  600px;
+}
+
+#budgetTracker-img{
+    height:  600px;
+    width:  600px;
+}
+
+#entertainMe-img{
+    height:  600px;
+    width:  600px;
+}
+
+#employeedirectory-img{
+    height:  600px;
+    width:  600px;
+}
+
+p{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+@media (min-width: 800px) {
+    .app{
+      padding: 0 100px;
+      margin-top:5vh;
+      min-height: 90vh;
+    }
+  }

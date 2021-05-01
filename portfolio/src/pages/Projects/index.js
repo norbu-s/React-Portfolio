@@ -4,6 +4,9 @@ import "./style.css";
 import OkatuImg from "../../Images/Otaku.png";
 import NoteImg from "../../Images/NoteTaker.png";
 import WeatherImg from "../../Images/WeatherApp.png";
+import EntertainMeImg from "../../Images/Entertain-Me.png";
+import EmployeeDirectoryImg from "../../Images/EmployeeDirectory.png";
+import BudgetTrackerImg from "../../Images/budgetTracker.png";
 
 
 function Projects () {
@@ -20,9 +23,6 @@ function Projects () {
               <li className={`nav-item`}>
                 <Link id="aboutme-nav" className={`nav-link dawn-color dawn-underline`} to="/#/">About Me</Link>
               </li>
-              <li className={`nav-item`}>
-                <Link className={`nav-link dawn-color`} to="/#/projects">Portfolio</Link>
-                </li>
                 <li className={`nav-item`}>
                 <Link className={`nav-link dawn-color`} to="/#/projects">Projects</Link>
               </li>
@@ -32,9 +32,10 @@ function Projects () {
             </ul>
           </div>  
         </nav>
-<div class="project">
+<div className="project">
 <h1> Projects</h1>
-<div class="otaku">
+<strong><p> A few projects that I've completed worked on during my bootcamp course</p></strong>
+<div className="otaku">
     <h2>Otaku</h2>
         <li> <a href="https://github.com/norbu-s/Project-Otaku">Repo </a></li>
         <li><a href="https://norbu-s.github.io/Project-Otaku/"> Otaku App</a></li>
@@ -48,7 +49,7 @@ function Projects () {
         </div>
         </div>            
 </div>
-<div class="note">
+<div className="note">
     <h2>Note-Taker</h2>
         <li><a href="https://github.com/norbu-s/Project-Otaku">Repo </a></li>
         <li><a href="https://norbu-s.github.io/Project-Otaku/"> Otaku App</a> </li>
@@ -62,7 +63,7 @@ function Projects () {
         </div>  
         </div> 
 </div>
-<div class="weather">
+<div className="weather">
     <h2>Weather App</h2>
         <li> <a href="https://norbu-s.github.io/Weather-App2">Repo </a></li>
         <li><a href="https://norbu-s.github.io/Weather-App2"> Weather App</a></li>
@@ -72,6 +73,48 @@ function Projects () {
             id="Weather-img"
             alt=""
             src={WeatherImg}
+        />  
+        </div>  
+        </div> 
+</div>
+<div className="budget-tracker">
+    <h2>Budget Tracker</h2>
+        <li> <a href="https://github.com/norbu-s/BudgetTracker">Repo </a></li>
+        <li><a href="https://norbu-s.github.io/Weather-App2"> Budget Tracker</a></li>
+        <div className="sidebar">
+        <div id="budgetTracker-div">
+        <img
+            id="budgetTracker-img"
+            alt=""
+            src={BudgetTrackerImg}
+        />  
+        </div>  
+        </div> 
+</div>
+<div className="Entertain-Me">
+    <h2>Entertain-Me</h2>
+        <li> <a href="https://github.com/norbu-s/Entertain-Me">Repo </a></li>
+        <li><a href="https://arcane-badlands-48936.herokuapp.com/"> Entertain-Me</a></li>
+        <div className="sidebar">
+        <div id="entertain-me">
+        <img
+            id="entertainMe-img"
+            alt=""
+            src={EntertainMeImg}
+        />  
+        </div>  
+        </div> 
+</div>
+<div className="Employee-Directory">
+    <h2>Employee-Directory-Me</h2>
+        <li> <a href="https://github.com/norbu-s/Entertain-Me">Repo </a></li>
+        <li><a href="https://arcane-badlands-48936.herokuapp.com/"> Entertain-Me</a></li>
+        <div className="sidebar">
+        <div id="employee-directory">
+        <img
+            id="employeedirectory-img"
+            alt=""
+            src={EmployeeDirectoryImg}
         />  
         </div>  
         </div> 
