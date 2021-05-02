@@ -11,7 +11,7 @@ Create a portfolio using React
 
 # Links
 - Github Repo - https://github.com/norbu-s/React-Portfolio
-- Deployed Link - 
+- Deployed Link - https://norbu-s.github.io/React-Portfolio/
 
 Application Screenshots
 
