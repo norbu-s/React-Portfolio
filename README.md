@@ -6,7 +6,8 @@ Project to create Portfolio with multiple pages and links.
 # Motivation. 
 Create a portfolio using React
 
-# Author. Name : Norbu Sherpa.
+# Author 
+- Name : Norbu Sherpa.
 
 # Links
 - Github Repo - https://github.com/norbu-s/React-Portfolio
