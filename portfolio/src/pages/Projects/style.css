@@ -1,3 +1,15 @@
+header{
+
+background-image: url("../../Images/backgroung.jpg");
+}
+
+.project{
+    padding: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+    color:white;
+    background-color: black;
+}
+
 .otaku{
     padding: 20px;
     margin: 50px;
@@ -36,36 +48,48 @@ p{
 {
     height:  600px;
     width:  600px;
+    margin: 0 10px 0;
 }
 
 #Note-img{
     height:  600px;
     width:  600px;
+    margin: 0 10px 0;
 }
 
 #Weather-img{
     height:  600px;
     width:  600px;
+    margin: 0 10px 0;
 }
 
 #budgetTracker-img{
     height:  600px;
     width:  600px;
+    margin: 0 10px 0;
 }
 
 #entertainMe-img{
     height:  600px;
     width:  600px;
+    margin: 0 10px 0;
 }
 
 #employeedirectory-img{
     height:  600px;
     width:  600px;
+    margin: 0 10px 0;
 }
 
 p{
     font-family: 'Josefin Sans', sans-serif;
 }
+
+.OkatuImg{
+    width:"300";
+    height:"300";
+   
+  }
 
 @media (min-width: 800px) {
     .app{

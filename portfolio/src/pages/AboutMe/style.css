@@ -1,10 +1,20 @@
+.header{
+  background-color:black;
+  color:white;
+}
+
 .container{
-    color: black;
-    background-image: url("../../Images/backgroung.jpg");
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+  background-color: black;
   }
 
+.about-me{
+  font-family: 'Josefin Sans', sans-serif;
+  padding:20px;
+}
 
-  p{
+p{
     font-family: 'Josefin Sans', sans-serif;
   }
 
@@ -21,6 +31,10 @@ h4{
   font-family: 'Josefin Sans', sans-serif;
 }
 
+.interests{
+  font-family: 'Josefin Sans', sans-serif;
+}
+
 #self-div{
   width:"300";
   height:"300";
@@ -28,11 +42,10 @@ h4{
   margin: 0 10px 0;
 }
   
-  /* @media (min-width: 800px) {
+@media (min-width: 800px) {
     .app{
       padding: 0 100px;
       margin-top:5vh;
       min-height: 90vh;
     }
   }
-   */
