@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./style.css";
 import OkatuImg from "../../Images/Otaku.png";
 import NoteImg from "../../Images/NoteTaker.png";
@@ -11,27 +10,6 @@ import BudgetTrackerImg from "../../Images/budgetTracker.png";
 
 function Projects () {
     return (
-    <header>
-        <div>
-            <nav id="index-navbar" className={`navbar navbar-expand-lg navbar-light col-12 dawn-background-2`}>
-          <button id="index-nav-toggler" className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon"></span>
-          </button>
-                      
-          <div className="collapse navbar-collapse" id="navbarSupportedContent"> 
-            <ul id="index-link" className="navbar-nav ml-auto">
-              <li className={`nav-item`}>
-                <Link id="aboutme-nav" className={`nav-link dawn-color dawn-underline`} to="/#/">About Me</Link>
-              </li>
-                <li className={`nav-item`}>
-                <Link className={`nav-link dawn-color`} to="/#/projects">Projects</Link>
-              </li>
-              <li className={`nav-item`}>
-                <Link className={`nav-link dawn-color`} to="/#/contact">Contact Me</Link>
-              </li>
-            </ul>
-          </div>  
-        </nav>
 <div className="project">
 <h1> Projects</h1>
 <strong><p> A few projects that I've completed worked on during my bootcamp course</p></strong>
@@ -120,8 +98,6 @@ function Projects () {
         </div> 
 </div>
 </div>
-</div>
-</header>
     )
 }
 

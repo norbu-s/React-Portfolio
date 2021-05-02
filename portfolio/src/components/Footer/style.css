@@ -1,12 +1,16 @@
 footer {
-    margin-top: 600px;
     width: 100%;
     padding: 10px 0;
+    ;
   }
+  
   
   footer img {
     max-width: 60px;
+    margin-left: 200px;
+    margin-bottom: 50px;
   }
+  
   
   footer img:not(:last-child) {
     margin-right: 10px;
