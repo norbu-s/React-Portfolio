@@ -1,17 +1,18 @@
-header{
-
-background-image: url("../../Images/backgroung.jpg");
-}
-
 h1{
     text-align: center;
+}
+
+h3{
+    text-align: center; 
 }
 
 .project{
     padding: 15px;
     font-family: 'Josefin Sans', sans-serif;
-    color:white;
-    background-color: black;
+    background-color:white;
+    color: black;
+    font-size:large;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .otaku{

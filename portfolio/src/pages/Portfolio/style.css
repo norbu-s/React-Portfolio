@@ -4,6 +4,21 @@ header{
     font-family: 'Josefin Sans', sans-serif;
     color:white;
     }
+
+h1{
+  text-align: center;
+}
+
+h3{
+  text-align: left;
+}
+
+.Portfolio-sm{
+  padding:15px;
+  font-size:large;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
     
 @media (min-width: 800px) {
         .app{

@@ -4,7 +4,8 @@ header{
 }
 
 #index-navbar{
-    color: white;
+  background-color: white;
+    color: black;
     max-width: 100%; 
     padding: 10px;
 }

@@ -44,27 +44,23 @@ function AboutMe () {
           </div>
             </div>
            <p>
-           Hi, I'm Norbu Sherpa, currently working as a Salesforce Engineer. I moved to Sydney about 12 years ago to complete my Master in Accounting Studies. My fasication of technology motivated me to change my career path. A few years
-               ago I was working as an operations supervisor for a litigation support firm. I resigned from that position and started preparing for Salesforce certification, I was successful in acquiring the Salesforce Administrator Certification. Three
-               weeks later I got an opportunity to interview with Athena Home loans and the rest is history. Working in a fintech has broadended my knowledge and understanding of how technology works.This made me realise programming was an essential
-               skill set to have. So I enrolled for the coding boot camp and embarked on my journey as become a developer.</p>
+           Hi, I'm Norbu Sherpa, currently working as a Salesforce Engineer. I moved to Sydney about 12 years ago to complete my Master in Accounting Studies.
+            After completeing my Masters my fascination for technology motivated me to change my career. I got certified as a Salesforce Administrator and have been working in a fintech,
+            for the last couple of years. I've been working with developer closly during my time with my current employeer, which made me more curious about undersatanding code. So I enrolled
+            for a full stack coding program in University oo Sydney to embark on my journey as a developer.
+            </p>
       </div> 
         <div className="interests">
+          <div className="all-interests">
            <h2><strong>Interest</strong></h2>
+           <p> Besides technology I am here are my few other interests</p>
            <ul>
-               <li>
-                   <h4>Travelling</h4>
-               </li>
-               <li>
-                   <h4>Technology</h4>
-               </li>
-               <li>
-                   <h4>Motor Racing</h4>
-               </li>
-               <li>
-                   <h4>Soccer</h4>
-               </li>
+               <h4>Travelling</h4>
+               <h4>Automotive enthusiast</h4>
+               <h4>Motor Racing</h4>
+               <h4>Soccer</h4>
                </ul>
+           </div>
            </div>
           </div> 
           <Footer />
