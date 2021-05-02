@@ -3,6 +3,10 @@ header{
 background-image: url("../../Images/backgroung.jpg");
 }
 
+h1{
+    text-align: center;
+}
+
 .project{
     padding: 15px;
     font-family: 'Josefin Sans', sans-serif;

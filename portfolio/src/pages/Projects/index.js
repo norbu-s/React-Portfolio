@@ -15,7 +15,7 @@ function Projects () {
 <div>
         <Header />
 <div className="project">
-<h1> Projects</h1>
+<h1>Projects</h1>
 <strong><p> A list of projects that I've worked on during my bootcamp course</p></strong>
 <div className="otaku">
     <h2>Otaku</h2>

@@ -1,0 +1,14 @@
+.contact {
+    width: 500px;
+    margin-top: 50px;
+    margin-left: 50px;
+    grid-column: 3;
+    grid-row: 1 / span 2;
+}
+
+.details{
+    padding:10px;
+    align-items: center;
+    margin-bottom: 1200px;
+}
+

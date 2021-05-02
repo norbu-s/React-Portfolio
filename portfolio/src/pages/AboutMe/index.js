@@ -25,7 +25,7 @@ function AboutMe () {
                 <Link className={`nav-link dawn-color`} to="/projects">Projects</Link>
               </li>
               <li className={`nav-item`}>
-                <Link className={`nav-link dawn-color`} to="/contact">Contact Me</Link>
+                <Link className={`nav-link dawn-color`} to="/contact">Contact</Link>
               </li>
             </ul>
           </div>  

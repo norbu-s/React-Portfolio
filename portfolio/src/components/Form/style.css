@@ -1,0 +1,11 @@
+form{
+    padding:20px;
+    color: black;
+    background-color:white;
+    max-width: 500px;
+}
+
+.form-group {
+    padding:15px;
+    max-width: 100%;
+}

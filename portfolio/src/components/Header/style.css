@@ -1,8 +1,17 @@
 header{
-    background-color: white;
-    color: black;
     max-width: 100%; 
-    padding: 0;
+    padding: 10px;
+}
+
+#index-navbar{
+    color: white;
+    max-width: 100%; 
+    padding: 10px;
+}
+
+#index-link{
+  font-size: large;
+
 }
 
 @media (min-width: 800px) {
